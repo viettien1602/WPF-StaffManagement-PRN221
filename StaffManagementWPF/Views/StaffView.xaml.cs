@@ -36,6 +36,7 @@ namespace StaffManagementWPF.Views
 
         private void assignDataGridView()
         {
+            staffs.Clear();
             userService.GetUsers().ForEach(u =>
             {
                 staffs.Add(new Staff
@@ -58,9 +59,14 @@ namespace StaffManagementWPF.Views
             {
                 var selectedStaff = (Staff)dgStaffs.SelectedItem;
                 var selectedUser = userService.GetUsers().FirstOrDefault(u => u.UserId == selectedStaff.UserId);
-                if (selectedUser != null) userService.Delete(selectedUser);
-                staffs.Remove(selectedStaff);
-                dgStaffs.ItemsSource = staffs;
+                if (selectedUser.RoleId == "ADMIN")
+                    MessageBox.Show("Can not delete Admin");
+                else
+                {
+                    if (selectedUser != null) userService.Delete(selectedUser);
+                    staffs.Remove(selectedStaff);
+                    dgStaffs.ItemsSource = staffs;
+                }
             }
                 
         }

@@ -1,4 +1,5 @@
 ﻿using DataLayer.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +50,7 @@ namespace DataLayer.Repositoy
             {
                 staffManagementDbContext.Update(user);
                 staffManagementDbContext.SaveChanges();
+                staffManagementDbContext.Entry(user).Reload();
             }
         }
     }
