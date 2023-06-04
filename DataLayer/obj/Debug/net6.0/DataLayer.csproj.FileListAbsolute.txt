@@ -1,0 +1,14 @@
+F:\CS_VS\StaffManagement\DataLayer\bin\Debug\net6.0\DataLayer.deps.json
+F:\CS_VS\StaffManagement\DataLayer\bin\Debug\net6.0\DataLayer.runtimeconfig.json
+F:\CS_VS\StaffManagement\DataLayer\bin\Debug\net6.0\DataLayer.dll
+F:\CS_VS\StaffManagement\DataLayer\bin\Debug\net6.0\DataLayer.pdb
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.csproj.AssemblyReference.cache
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfoInputs.cache
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.AssemblyInfo.cs
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.csproj.CoreCompileInputs.cache
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.dll
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\refint\DataLayer.dll
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.pdb
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\DataLayer.genruntimeconfig.cache
+F:\CS_VS\StaffManagement\DataLayer\obj\Debug\net6.0\ref\DataLayer.dll
